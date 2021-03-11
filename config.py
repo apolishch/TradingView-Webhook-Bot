@@ -12,12 +12,16 @@
 sec_key = ''  # Can be anything. Has to match with "key" in your TradingView alert message
 
 # Telegram Settings
-send_telegram_alerts = False
-tg_token   = ''  # Bot token. Get it from @Botfather
-channel    = 0   # Channel ID (ex. -1001487568087)
+send_telegram_free_alerts = True
+tg_free_token   = ''  # Bot token. Get it from @Botfather
+tg_free_channel    = 0   # Channel ID (ex. -1001487568087)
+
+send_telegram_vip_alerts = True
+tg_vip_token   = ''  # Bot token. Get it from @Botfather
+tg_vip_channel    = 0   # Channel ID (ex. -1001487568087)
 
 # Discord Settings
-send_discord_alerts = False
+send_discord_alerts = True
 discord_webhook     = ''    # Discord Webhook URL (https://support.discordapp.com/hc/de/articles/228383668-Webhooks-verwenden)
 
 # Slack Settings
